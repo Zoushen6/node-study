@@ -1,0 +1,17 @@
+{
+  "name": "zs",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "",
+  "author": "zs",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "jsdom": "^22.1.0"
+  }
+}
