@@ -1,0 +1,23 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoushen6/node-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoushen6/node-study/issues"
+  },
+  "homepage": "https://github.com/Zoushen6/node-study#readme",
+  "dependencies": {
+    "nodejs-websocket": "^1.7.2"
+  }
+}
