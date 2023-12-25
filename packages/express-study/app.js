@@ -18,6 +18,7 @@ const preventHotLink = (req,res,next) => {
         if(!whiteList.includes(hostname)) {
             //使用http://127.0.0.1:3000/index.html 访问
             res.status(403).send('禁止访问')
+            //中间件中return 直接跳出函数，病人且不会继续执行后中间件或路由处理函数
             return
         }
     }
